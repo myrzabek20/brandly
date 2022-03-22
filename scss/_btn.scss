@@ -1,0 +1,14 @@
+@import "vars";
+.btn {
+  display: inline-block;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 21px 56px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $light;
+  border: 2px solid $light;
+}
