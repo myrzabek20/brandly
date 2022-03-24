@@ -1,0 +1,12 @@
+@import "vars";
+
+.footer {
+  padding-top: 35px;
+  min-height: 157px;
+
+  background-image: url(../img/footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: $light;
+}

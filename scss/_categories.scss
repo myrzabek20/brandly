@@ -1,0 +1,47 @@
+@import "vars";
+
+.categories {
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+  }
+
+  &__item {
+    width: 350px;
+    min-height: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/ct-me.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &-women {
+      background-image: url(../img/women.jpg);
+    }
+    &-accessories {
+      background-image: url(../img/accessories.jpg);
+    }
+  }
+  &__link {
+    font-family: $secondary-font;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+
+    text-transform: capitalize;
+
+    color: $light;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover {
+      color: $accent;
+    }
+  }
+}
